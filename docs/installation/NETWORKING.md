@@ -20,7 +20,7 @@ This guide will show you how to make Perplexica available over a network. Follow
 
     ```bash
     args:
-      - NEXT_PUBLIC_API_URL=http://65.1.198.213:3001/api
+      - NEXT_PUBLIC_API_URL=https://api-inquiro.theunderdogcrew.com/api
       - NEXT_PUBLIC_WS_URL=ws://65.1.198.213:3001
     ```
 
@@ -58,7 +58,7 @@ This guide will show you how to make Perplexica available over a network. Follow
 
     ```bash
     args:
-      - NEXT_PUBLIC_API_URL=http://65.1.198.213:3001/api
+      - NEXT_PUBLIC_API_URL=https://api-inquiro.theunderdogcrew.com/api
       - NEXT_PUBLIC_WS_URL=ws://65.1.198.213:3001
     ```
 
@@ -96,7 +96,7 @@ This guide will show you how to make Perplexica available over a network. Follow
 
     ```bash
     args:
-      - NEXT_PUBLIC_API_URL=http://65.1.198.213:3001/api
+      - NEXT_PUBLIC_API_URL=https://api-inquiro.theunderdogcrew.com/api
       - NEXT_PUBLIC_WS_URL=ws://65.1.198.213:3001
     ```
 
