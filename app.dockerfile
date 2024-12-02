@@ -1,6 +1,6 @@
 FROM node:20.18.0-alpine
 
-ARG NEXT_PUBLIC_WS_URL=ws://65.1.198.213:3001
+ARG NEXT_PUBLIC_WS_URL=ws://https://api-inquiro.theunderdogcrew.com/
 ARG NEXT_PUBLIC_API_URL=https://api-inquiro.theunderdogcrew.com/api
 ENV NEXT_PUBLIC_WS_URL=${NEXT_PUBLIC_WS_URL}
 ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}

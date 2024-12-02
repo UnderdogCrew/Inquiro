@@ -21,7 +21,7 @@ This guide will show you how to make Perplexica available over a network. Follow
     ```bash
     args:
       - NEXT_PUBLIC_API_URL=https://api-inquiro.theunderdogcrew.com/api
-      - NEXT_PUBLIC_WS_URL=ws://65.1.198.213:3001
+      - NEXT_PUBLIC_WS_URL=wss://api-inquiro.theunderdogcrew.com
     ```
 
 6. Save and close the `docker-compose.yaml` file
@@ -59,7 +59,7 @@ This guide will show you how to make Perplexica available over a network. Follow
     ```bash
     args:
       - NEXT_PUBLIC_API_URL=https://api-inquiro.theunderdogcrew.com/api
-      - NEXT_PUBLIC_WS_URL=ws://65.1.198.213:3001
+      - NEXT_PUBLIC_WS_URL=wss://api-inquiro.theunderdogcrew.com
     ```
 
 6. Save and exit the editor
@@ -97,7 +97,7 @@ This guide will show you how to make Perplexica available over a network. Follow
     ```bash
     args:
       - NEXT_PUBLIC_API_URL=https://api-inquiro.theunderdogcrew.com/api
-      - NEXT_PUBLIC_WS_URL=ws://65.1.198.213:3001
+      - NEXT_PUBLIC_WS_URL=wss://api-inquiro.theunderdogcrew.com
     ```
 
 6. Save and exit the editor
