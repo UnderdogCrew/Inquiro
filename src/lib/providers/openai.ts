@@ -34,7 +34,7 @@ export const loadOpenAIChatModels = async () => {
         }),
       },
       'gpt-4o': {
-        displayName: 'GPT-4 omni',
+        displayName: 'GPT-4omni',
         model: new ChatOpenAI({
           openAIApiKey,
           modelName: 'gpt-4o',
@@ -42,7 +42,7 @@ export const loadOpenAIChatModels = async () => {
         }),
       },
       'gpt-4o-mini': {
-        displayName: 'GPT-4 omni mini',
+        displayName: 'GPT-4o-mini',
         model: new ChatOpenAI({
           openAIApiKey,
           modelName: 'gpt-4o-mini',
