@@ -318,7 +318,7 @@ const SettingsDialog = ({
                               }
                             />
                           </div>
-                          <div className="flex flex-col space-y-1">
+                          {/* <div className="flex flex-col space-y-1">
                             <p className="text-black/70 dark:text-white/70 text-sm">
                               Custom OpenAI API Key
                             </p>
@@ -330,7 +330,7 @@ const SettingsDialog = ({
                                 setCustomOpenAIApiKey(e.target.value)
                               }
                             />
-                          </div>
+                          </div> */}
                           <div className="flex flex-col space-y-1">
                             <p className="text-black/70 dark:text-white/70 text-sm">
                               Custom OpenAI Base URL
@@ -347,7 +347,7 @@ const SettingsDialog = ({
                         </>
                       )}
                     {/* Embedding models */}
-                    {config.embeddingModelProviders && (
+                    {/* {config.embeddingModelProviders && (
                       <div className="flex flex-col space-y-1">
                         <p className="text-black/70 dark:text-white/70 text-sm">
                           Embedding model Provider
@@ -371,8 +371,8 @@ const SettingsDialog = ({
                           }))}
                         />
                       </div>
-                    )}
-                    {selectedEmbeddingModelProvider && (
+                    )} */}
+                    {/* {selectedEmbeddingModelProvider && (
                       <div className="flex flex-col space-y-1">
                         <p className="text-black/70 dark:text-white/70 text-sm">
                           Embedding Model
@@ -412,7 +412,7 @@ const SettingsDialog = ({
                           })()}
                         />
                       </div>
-                    )}
+                    )} */}
                     <div className="flex flex-col space-y-1">
                       <p className="text-black/70 dark:text-white/70 text-sm">
                         OpenAI API Key
@@ -429,7 +429,7 @@ const SettingsDialog = ({
                         }
                       />
                     </div>
-                    <div className="flex flex-col space-y-1">
+                    {/* <div className="flex flex-col space-y-1">
                       <p className="text-black/70 dark:text-white/70 text-sm">
                         Ollama API URL
                       </p>
@@ -444,8 +444,8 @@ const SettingsDialog = ({
                           })
                         }
                       />
-                    </div>
-                    <div className="flex flex-col space-y-1">
+                    </div> */}
+                    {/* <div className="flex flex-col space-y-1">
                       <p className="text-black/70 dark:text-white/70 text-sm">
                         GROQ API Key
                       </p>
@@ -460,8 +460,8 @@ const SettingsDialog = ({
                           })
                         }
                       />
-                    </div>
-                    <div className="flex flex-col space-y-1">
+                    </div> */}
+                    {/* <div className="flex flex-col space-y-1">
                       <p className="text-black/70 dark:text-white/70 text-sm">
                         Anthropic API Key
                       </p>
@@ -476,8 +476,8 @@ const SettingsDialog = ({
                           })
                         }
                       />
-                    </div>
-                    <div className="flex flex-col space-y-1">
+                    </div> */}
+                    {/* <div className="flex flex-col space-y-1">
                       <p className="text-black/70 dark:text-white/70 text-sm">
                         Gemini API Key
                       </p>
@@ -492,7 +492,7 @@ const SettingsDialog = ({
                           })
                         }
                       />
-                    </div>
+                    </div> */}
                   </div>
                 )}
                 {isLoading && (
